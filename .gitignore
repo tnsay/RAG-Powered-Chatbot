@@ -1,0 +1,9 @@
+data/
+!data/*.dvc
+
+
+__pycache__/
+.env
+*.pyc
+venv/
+mlruns/
