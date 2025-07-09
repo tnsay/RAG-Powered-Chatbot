@@ -31,8 +31,6 @@ from dotenv import load_dotenv
 env_path = "/content/drive/MyDrive/myenv/.env"
 load_dotenv(dotenv_path=env_path)
 
-# Test
-print(os.getenv("HUGGINGFACEHUB_API_TOKEN"))
 
 from huggingface_hub import login
 login(token=os.getenv("HUGGINGFACEHUB_API_TOKEN"))
