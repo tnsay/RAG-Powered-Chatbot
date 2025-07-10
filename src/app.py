@@ -23,4 +23,4 @@ with gr.Blocks() as demo:
     submit_btn.click(query_rag, inputs=inp, outputs=[answer_box, source_box])
     clear_btn.click(lambda: ("", ""), None, [answer_box, source_box])
 
-demo.launch()
+demo.launch(share=True, server_port=7861)
