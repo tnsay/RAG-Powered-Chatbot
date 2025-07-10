@@ -27,3 +27,11 @@ We found that [insert dominant product here] was the most commonly reported prod
   - Lightweight (~80MB) and fast  
   - Strong benchmark performance and industry adoption  
   - Easy integration via `HuggingFaceEmbeddings` in LangChain
+## Task 3 -Building the RAG Core Logic and Evaluation
+
+  - You can find the main code in [`src/rag_pipeline.ipynb`].
+## Task 4 -Creating an Interactive Chat Interface
+  
+  - using gradio to build the ui
+  - You can find the code that runs the Gradio in [`src/app.py`].
+  - Also find screenshot of the app ui in [`screenshots/Screenshot1.jpg`].
